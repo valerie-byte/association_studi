@@ -1,0 +1,15 @@
+header {
+    background-color:rgb(12, 194, 185);
+    text-align: center;
+    font-size: 8em;
+    font-family: "Romanesco", cursive;
+}
+
+
+
+footer {
+    background-color:rgb(148, 155, 154);
+    text-align: center;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif
+}
