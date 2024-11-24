@@ -2,7 +2,7 @@ header {
     background-color:rgb(12, 194, 185);
     color:white;
     text-align: center;
-    font-size: 5em;
+    font-size: 10em;
     font-family: "Romanesco", cursive;
 }
 
@@ -13,11 +13,25 @@ footer {
     font-size: 1em;
     font-family:'Times New Roman', Times, serif
 } 
-.container-fluid{
-    background-color: rgb(148, 155, 154);
-    
-    color:white
-}
-.article1{
-    background-color: blue;
-}
+ .container-fluid{
+    background-color: rgb(213, 154, 16);
+    color:white 
+ }
+
+ .container{
+    background-color: rgb(91, 16, 213);
+    color:white 
+ }
+ p{
+    font-size: 20px;
+ }
+ 
+@media (min-width: 768px) {
+    p{
+        font-size: 40px;
+    }
+    h1{
+        font-size:2rem;
+    }
+ }
+
