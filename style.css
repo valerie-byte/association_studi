@@ -2,36 +2,46 @@ header {
     background-color:rgb(12, 194, 185);
     color:white;
     text-align: center;
-    font-size: 10em;
+    font-size: 6em;
     font-family: "Romanesco", cursive;
 }
-
-
+.col-1{
+    background-color: rgb(15, 15, 241);
+    align-self: flex-start;
+}
+.nav-link {
+    font-size:4em;
+}
+h1 {
+    font-size: 20px;
+}
 footer {
     background-color:rgb(148, 155, 154);
     text-align: center;
-    font-size: 1em;
-    font-family:'Times New Roman', Times, serif
+    font-size: 6em;
+    font-family:"Romanesco", cursive;
 } 
- .container-fluid{
-    background-color: rgb(213, 154, 16);
+
+ .container{
     color:white 
  }
 
- .container{
-    background-color: rgb(91, 16, 213);
-    color:white 
- }
  p{
-    font-size: 20px;
- }
- 
-@media (min-width: 768px) {
-    p{
-        font-size: 40px;
+    font-size: 14px;
+ } 
+/* cible écran de largeur min 768px  */
+  @media screen and (min-width:768px) {
+    header, footer {
+        font-size: 12em;
+            }
+    p{ 
+        font-size: 18px;
     }
     h1{
-        font-size:2rem;
+        font-size:24px; 
+     } 
+     .nav-link {
+        font-size:8em;
     }
- }
+ }  
 
