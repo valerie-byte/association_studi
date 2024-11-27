@@ -5,30 +5,33 @@ header {
     font-size: 6em;
     font-family: "Romanesco", cursive;
 }
+
+.container{
+    color:white 
+ }
+
+.nav-link {
+    font-size:4em;
+}
 .col-1{
     background-color: rgb(15, 15, 241);
     align-self: flex-start;
 }
-.nav-link {
-    font-size:4em;
-}
+
 h1 {
     font-size: 20px;
 }
-footer {
-    background-color:rgb(148, 155, 154);
-    text-align: center;
-    font-size: 6em;
-    font-family:"Romanesco", cursive;
-} 
-
- .container{
-    color:white 
- }
 
  p{
     font-size: 14px;
  } 
+ 
+ footer {
+    background-color:rgb(148, 155, 154);
+    text-align: center;
+    font-size: 3em;
+    font-family:"Romanesco", cursive;
+} 
 /* cible écran de largeur min 768px  */
   @media screen and (min-width:768px) {
     header, footer {
@@ -42,6 +45,10 @@ footer {
      } 
      .nav-link {
         font-size:8em;
+    }
+    .img{
+        width:2048;
+        height:1366
     }
  }  
 
